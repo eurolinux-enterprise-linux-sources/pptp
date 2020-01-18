@@ -1,6 +1,6 @@
 Name:		pptp
 Version:	1.7.2
-Release:	22%{?dist}
+Release:	20%{?dist}
 Summary:	Point-to-Point Tunneling Protocol (PPTP) Client
 Group:		Applications/Internet
 License:	GPLv2+
@@ -161,12 +161,6 @@ rm -rf %{buildroot}
 %{_mandir}/man8/pptpsetup.8*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.7.2-22
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.7.2-21
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Paul Howarth <paul@city-fan.org> 1.7.2-20.0.cf
 - BR: /usr/bin/pod2man for generation of pptpsetup man page
 
